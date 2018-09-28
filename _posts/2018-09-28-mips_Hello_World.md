@@ -34,7 +34,7 @@ CISC는‘COMPLEX INSTRUCTION SET COMPUTER’의 약어이고, 연산에 처리�
 
 RISC는 ‘REDUCED INSTRUCTION SET COMPUTER’의 약어이며, 하나의 명령어 실행으로 간단한 프로세스들을 매우 신속하게 수행합니다. RISC 아키텍처는 다수의 축소 명령어들을 신속하게 실행하여 전반적인 MCU 성능을 향상시키는 것이 특징이라 할 수 있습니다.
 
->![risc](/uploads/7d90a70cb8e541a1a1b7f76d36df6350/risc.PNG)
+![]({{ site.baseurl }}/assets/images/mips/mips_01.PNG)
 (출처 : http://www.semiconnet.co.kr/ms_pdf/667_20151229134857_201502_st.pdf)
 
 ---
