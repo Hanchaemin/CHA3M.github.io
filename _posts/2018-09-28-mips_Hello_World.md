@@ -1,8 +1,6 @@
 ---
 title: ! "MIPS 정복기 start!"
-classes: wide
 date: 2018-09-28
-comments : true
 tags:
   - mips
   - 아키텍처
