@@ -145,8 +145,9 @@ main.js : 전역설정을 하는 곳, 프로젝트의 base파일
 components에 page1파일을 추가했다고 가정하면, 웹에서 `http://localhost:8080/page1`로 접근할 수 있습니다.  
 <br>
 프로젝트 설정할때를 보면 라우터를 설정하였습니다. 저는 라우터를 사용안하였으나, 라우터에 관한 내용은 이 블로그에서 잘 설명해 주고있으니, 참고하면 좋을 것 같습니다.  
+
 > [vue-router살펴보기](http://blog.jeonghwan.net/2018/04/07/vue-router.html)  
-<br>
+
 또, vue에서는 bootstrap처럼 UI레이아웃을 제공하는 vuetify, bootstrap vue등이 있어요!!  
 
 - vuetify 설치  
