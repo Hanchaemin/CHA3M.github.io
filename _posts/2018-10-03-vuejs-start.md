@@ -17,9 +17,7 @@ categories:
 매우매우 많은 사람들이 뷰는 쉽다, 입문하기 좋다 등등 호평을 하고 있더라구요!  
 이렇게 한국어로된 공식 사이트도 있고요!  
 
-```
 [vue.js공식한글사이트](https://kr.vuejs.org/v2/guide/#%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)  
-```
 
 그래서 용감하게 도전하였으나... 읭?!  
 웹좀해봤으면 진짜 간단하게 쭉쭉 짤수잇을 것 같더라구요!! but, 나는 아니라구 ㅠㅠ
@@ -162,6 +160,5 @@ Vue.use(Vuetify);
 
 자세한 내용은 홈페이지에서 참고 가능합니다!  
 
-```  
 [vuetify 홈페이지](https://vuetifyjs.com/ko/getting-started/quick-start)  
-```
+
