@@ -1,22 +1,17 @@
 ---
-
-layout: post
 title: ! "Vue.js 시작하기"
-excerpt_separator: <!--more-->
-
+date: 2018-10-03
 tags:
- - vue.js
- - web
- - vuetify
- - chaem
-
+  - vue.js
+  - web
+  - chaem
+categories:
+  - vue
 ---
 
 안녕하세용  
 웹 프론트엔드계에서 뜨거운 vue.js, react.js, angular.js에 대해 알아보았습니당  
 사실은 `vue.js`에 대해서 주로 말할거에요! ㅎㅎ
-
-<!--more-->
 
 일단 뷰는 프론트엔트계에서 혜성같이 떠오른 자바스크립트 프레임워크라고 할 수 있습니다  
 매우매우 많은 사람들이 뷰는 쉽다, 입문하기 좋다 등등 호평을 하고 있더라구요!  
@@ -121,7 +116,7 @@ sudo npm install -g vue-cli //vue-cli 설치
 vue init webpack 프로젝트명 //프로젝트를 생성하고 webpack이라는 템플릿 사용
 ```
 
-![]({{ site.baseurl }}/images/chaem/vue/vue_01.PNG)
+![]({{ site.baseurl }}/asset/images/vue/vue_01.PNG)
 
 - 프로젝트 실행하기  
 
@@ -131,7 +126,7 @@ npm run dev // 프로젝트 실행
 ```
 
 프로젝트를 실행시킨 후 웹에서 `http://localhost:8080`에 접속하면 다음과 같은 기본 화면을 볼 수 있습니다.  
-![]({{ site.baseurl }}/images/chaem/vue/vue_02.PNG)
+![]({{ site.baseurl }}/asset/images/vue/vue_02.PNG)
 
 저는 코드 수정을 `VSCode`를 이용하여 했습니다.  
 VSCode에서 파일 - 폴더열기 - 해당폴더 선택하여 코드를 열면, src경로에서 App.vue, main.js를 볼 수 있으며, components폴더에 HelloWorld.vue파일이 기본적으로 있습니다.  
