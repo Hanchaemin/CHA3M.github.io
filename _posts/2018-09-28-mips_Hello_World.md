@@ -3,8 +3,6 @@ title: ! "MIPS 정복기 start!"
 date: 2018-09-28
 tags:
   - mips
-  - 아키텍처
-  - risc
   - chaem
 categories:
   - mips
