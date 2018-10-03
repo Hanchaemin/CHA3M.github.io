@@ -11,13 +11,12 @@ categories:
 ---
 
 HITCON-Training이라는 15개의 문제가 있는 링크를 볼 수 있는데요!
-```
-https://github.com/scwuaptx/HITCON-Training
-```
+
+- https://github.com/scwuaptx/HITCON-Training
+
 오늘 여기서 lab12에 대해 설명하려고 합니다.
-```
-https://github.com/scwuaptx/HITCON-Training/tree/master/LAB/lab12
-```
+
+- https://github.com/scwuaptx/HITCON-Training/tree/master/LAB/lab12
 
 여기는 문제 코드, 바이너리, exploit이 모두 나와있어서 여러가지로 도움이 되었었습니다 ㅎㅎ
 
