@@ -7,7 +7,7 @@ tags:
   - double free bug
   - chaem
 categories:
-  - pwnable
+  - pwn
 ---
 
 HITCON-Training이라는 15개의 문제가 있는 링크를 볼 수 있는데요!
