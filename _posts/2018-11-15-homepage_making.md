@@ -40,9 +40,11 @@ php.ini파일에서 `error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT` 부분
 ## 쿠키값 암호화
 
 쿠키값을 암호화하지 않으면 쿠키값이 그대로 노출되게 됩니다.  
-01.png
+![]({{ site.baseurl }}/assets/images/hompage_making/homepage_making_01.PNG)  
+
 `editthiscookie`와 같은 프로그램으로 다음과 같은 쿠키 값을 url 디코딩하면 이렇게 정보가 유출되게 됩니다.  
-02.png
+![]({{ site.baseurl }}/assets/images/hompage_making/homepage_making_02.PNG)  
+
 중요한 정보는 없지만 ㅎㅎ 이런 부분도 신경써주면 좋을 것 같습니다!  
 저는 그래서 쿠키값을 암호화해 주기위해 mcrypt라는 툴을 사용하였습니다.  
 ```
