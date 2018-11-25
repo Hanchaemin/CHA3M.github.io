@@ -5,7 +5,6 @@ tags:
   - wargame.kr
   - web
   - flee button
-  - http_header
   - chaem
 categories:
   - web
