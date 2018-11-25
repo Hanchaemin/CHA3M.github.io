@@ -15,7 +15,7 @@ wargame.kr의 첫번째 문제인 already_got 문제에서 나오는 `http heade
 
 [wargame.kr홈페이지](http://wargame.kr/challenge)
 
-![]({{ site.baseurl }}/asset/images/wargame.kr/already_got_01.JPG)
+![]({{ site.baseurl }}/assets/images/wargame.kr/already_got_01.JPG)
 
 http response header에 대해 아냐고 물어본다!  
 
@@ -32,7 +32,7 @@ View HTTP headers in Google Chrome
 3. 좌측 네임(Name)에서 확인하고 싶은 파일 선택
 4. 우측 헤더 (Header)탭 선택
 
-![]({{ site.baseurl }}/asset/images/wargame.kr/already_got_02.JPG)
+![]({{ site.baseurl }}/assets/images/wargame.kr/already_got_02.JPG)
 
 그러면 이렇게 flag를 발견할 수 있다.  
 크롬 개발자 도구뿐만아니라, paros, wireshark 등의 도구를 이용하여서도 header의 값을 볼 수 있다.  
