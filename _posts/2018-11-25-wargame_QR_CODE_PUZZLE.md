@@ -31,10 +31,10 @@ wargame.kr의 세번째 문제는 QR CODE PUZZLE이라는 문제이다.
 
 source를 한번 봐보자하면서 갔더니, 이미지 파일이 그대로 있었다. QR code 원본을 발견할 수 있었다.  
 
-![]({{ site.baseurl }}/assets/images/wargame.kr/flee_button_04.JPG)  
+![]({{ site.baseurl }}/assets/images/wargame.kr/qrcode_puzzle_04.JPG)  
 
 온라인으로 이미지 QR code 리더기가 있나 찾아봤으나, 못찾겠어서 그냥 폰으로 했다.  
 
 QR code를 리드하자마자, flag를 알려주었다! 끗!  
 
-![]({{ site.baseurl }}/assets/images/wargame.kr/flee_button_05.JPG)  
+![]({{ site.baseurl }}/assets/images/wargame.kr/qrcode_puzzle_05.JPG)  
