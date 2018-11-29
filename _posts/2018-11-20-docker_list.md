@@ -13,7 +13,7 @@ categories:
 sudo apt install docker.io  
 
 # build  
-docker build -t overflow1 .  
+docker build -t test1 .  
 
 # run
 docker run -d -it -p 9999:9999 --name test1 test1  
