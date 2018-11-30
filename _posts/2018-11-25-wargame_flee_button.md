@@ -7,7 +7,7 @@ tags:
   - flee button
   - chaem
 categories:
-  - web
+  - wargame.kr
 ---
 
 wargame.kr의 두번째 문제는 flee button이라는 문제이다.  
