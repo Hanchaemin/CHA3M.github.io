@@ -7,7 +7,7 @@ tags:
   - QR CODE PUZZLE
   - chaem
 categories:
-  - web
+  - wargame.kr
 ---
 
 wargame.kr의 세번째 문제는 QR CODE PUZZLE이라는 문제이다.  
