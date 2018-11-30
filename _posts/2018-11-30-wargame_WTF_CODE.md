@@ -26,7 +26,7 @@ categories:
 ![]({{ site.baseurl }}/assets/images/wargame.kr/WTF_03.JPG)  
 아무것도 없...지 않았다! 뭔가 있는데, 이게 뭐지?! 하고는 `.ws`확장자를 구글에 찾아봤다.  
 검색하다가 아래의 글을 발견했다!  
-https://www.facebook.com/HakSec.Story/posts/%EA%B0%95%EC%9D%98hac%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94-%EB%8B%A4%EC%8B%9C%EB%8F%8C%EC%95%84%EC%98%A8-saynot%EC%9E%85%EB%8B%88%EB%8B%A4%EA%B7%B8%EB%8F%99%EC%95%88-%ED%95%99%EC%83%9D%EC%8B%A0%EB%B6%84%EC%97%90%EC%9E%88%EC%96%B4%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B4%80%EB%A6%AC%EC%97%90-%EC%9E%88%EC%96%B4%EC%84%9C-%EC%86%8C%ED%99%80%ED%96%88%EC%97%88%EB%8A%94%EB%8D%B0%EB%8B%A4%EC%8B%9C-%EC%B4%88%EC%8B%AC%EC%9D%84-%EA%B0%96%EA%B3%A0-%EA%B8%80%EC%9D%84-%EC%9E%91%EC%84%B1%ED%95%B4%EB%82%98%EA%B0%80%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4%EC%98%A4/1238699326155384/  
+[whitespace에 대해 설명하는 페북글](https://www.facebook.com/HakSec.Story/posts/%EA%B0%95%EC%9D%98hac%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94-%EB%8B%A4%EC%8B%9C%EB%8F%8C%EC%95%84%EC%98%A8-saynot%EC%9E%85%EB%8B%88%EB%8B%A4%EA%B7%B8%EB%8F%99%EC%95%88-%ED%95%99%EC%83%9D%EC%8B%A0%EB%B6%84%EC%97%90%EC%9E%88%EC%96%B4%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B4%80%EB%A6%AC%EC%97%90-%EC%9E%88%EC%96%B4%EC%84%9C-%EC%86%8C%ED%99%80%ED%96%88%EC%97%88%EB%8A%94%EB%8D%B0%EB%8B%A4%EC%8B%9C-%EC%B4%88%EC%8B%AC%EC%9D%84-%EA%B0%96%EA%B3%A0-%EA%B8%80%EC%9D%84-%EC%9E%91%EC%84%B1%ED%95%B4%EB%82%98%EA%B0%80%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4%EC%98%A4/1238699326155384/)  
 오오 `whitespace`라는 언어가 있다고 한다!!  
 whitespace 언어에 대해 찾아보니, 위키에도 있었당! 이런 재미있는 언어가 있다닝...  
 ![]({{ site.baseurl }}/assets/images/wargame.kr/WTF_04.JPG)  
