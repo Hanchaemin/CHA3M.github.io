@@ -8,7 +8,7 @@ tags:
   - http_header
   - chaem
 categories:
-  - web
+  - wargame.kr
 ---
 
 wargame.kr의 첫번째 문제인 already_got 문제에서 나오는 `http header` 대해 공부해보고자 한다.  
