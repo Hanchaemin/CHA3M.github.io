@@ -25,8 +25,8 @@ wargame.kr의 login filtering이라는 문제이다.
 
 ![]({{ site.baseurl }}/assets/images/wargame.kr/login_filtering_02.JPG)
 
-문제에 접속하면 다음과 같이 로그인 창이 나오며, 소스를 볼 수 있습니다.  
-해당 소스는 다음과 같습니다.  
+문제에 접속하면 다음과 같이 로그인 창이 나오며, 소스를 볼 수 있다.  
+해당 소스는 다음과 같다.  
 
 ```php
 <?php
@@ -100,8 +100,8 @@ blueh4g / blueh4g1234ps
 -->
 ```
 
-공부도 할겸 소스코드를 분석해 보겠습니당ㅎㅎ  
-우선, 처음은 소스코드를 보여주는 코드입니다.  
+공부도 할겸 소스코드를 분석해 보자ㅎㅎ  
+우선, 처음은 소스코드를 보여주는 코드이다.  
 ```php
 if (isset($_GET['view-source'])) {
     show_source(__FILE__);
@@ -109,20 +109,20 @@ if (isset($_GET['view-source'])) {
 }
 ```
 
-다음은 isset함수로 인자가 있는 것을 확인하여 id와 ps가 있으면 lib.php를 함수에 포함시킨다는 의미입니다.  
+다음은 isset함수로 인자가 있는 것을 확인하여 id와 ps가 있으면 lib.php를 함수에 포함시킨다는 의미이다.  
 ```php
 if(isset($_POST['id']) && isset($_POST['ps'])){
  include("../lib.php"); # include for auth_code function.
 ```
 
-그리고 mysql을 사용하기위해 쿼리를 연결시킵니다.  
+그리고 mysql을 사용하기위해 쿼리를 연결시킨다.  
 ```php
 mysql_connect("localhost","login_filtering","login_filtering_pz");
 mysql_select_db ("login_filtering");
 mysql_query("set names utf8");
 ```
 
-사용자가 입력한 id와 ps를 각각 $id와 $ps에 넣고 실행한 명령문을 $row에 기록하도록 합니다.  
+사용자가 입력한 id와 ps를 각각 $id와 $ps에 넣고 실행한 명령문을 $row에 기록하도록 한다.  
 ```php
 $key = auth_code("login filtering");
 
@@ -147,7 +147,7 @@ if(isset($row['id'])){
 }
 ```
 
-중간에 html부분은 건너뛰고, 마지막에 보면 주석으로 계정정보가 적혀있어 이가 노출된 것을 알 수 있습니다.  
+중간에 html부분은 건너뛰고, 마지막에 보면 주석으로 계정정보가 적혀있어 이가 노출된 것을 알 수 있다.  
 ```php
 <!--
 
@@ -175,6 +175,6 @@ if(isset($row['id'])){
 }
 ```
 
-따라서 위에서도 언급했듯이, guest / guest 또는 blueh4g / blueh4g1234ps 계정을 사용하되, 대문자를 섞어서 로그인을 하면 위의 if문을 통과할 수 있기때문에 flag를 획득할 수 있습니다.  
+따라서 위에서도 언급했듯이, guest / guest 또는 blueh4g / blueh4g1234ps 계정을 사용하되, 대문자를 섞어서 로그인을 하면 위의 if문을 통과할 수 있기때문에 flag를 획득할 수 있다.  
 
 ![]({{ site.baseurl }}/assets/images/wargame.kr/login_filtering_03.JPG)
