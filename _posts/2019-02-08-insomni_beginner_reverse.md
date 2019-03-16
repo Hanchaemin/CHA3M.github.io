@@ -23,7 +23,7 @@ beginner_reverse-466bdf23cf344b8ee734a8ae86620ac72a37bb81a950b30eae6709f185c3b24
 문제를 푸는 데 상관없는 코드들이 많은 문제였다.   
 IDA로 분석한 결과 beginer_reverse::main::h80fa15281f646bc1() 부분을 발견할 수 있었다. 아래의 문자들을 이용하여 연산하는 것으로 유추되었다.  
 
-![]({{ site.baseurl }}/images/chaem/insomni_rev/beginner_reverse_01.JPG)  
+![]({{ site.baseurl }}/assets/images/insomni_rev/beginner_reverse_01.JPG)  
 
 그리고 do ~ while문을 통해 다음과 같은 연산을 반복하여 일치하는 값을 찾는 것을 알 수 있다.  
 ```
@@ -38,11 +38,11 @@ IDA로 분석한 결과 beginer_reverse::main::h80fa15281f646bc1() 부분을 발
   }
 ```
 
-![]({{ site.baseurl }}/images/chaem/insomni_rev/beginner_reverse_02.JPG)  
+![]({{ site.baseurl }}/assets/images/insomni_rev/beginner_reverse_02.JPG)  
 
 그리고 아래 부분에서 뒷부분의 값도 찾아낼 수 있었다.  
 
-![]({{ site.baseurl }}/images/chaem/insomni_rev/beginner_reverse_03.JPG)  
+![]({{ site.baseurl }}/assets/images/insomni_rev/beginner_reverse_03.JPG)  
 
 따라서 이 부분을 python으로 작성하면 다음과 같이 연산하여 flag값을 추출해 낼 수 있다.  
 ```python
