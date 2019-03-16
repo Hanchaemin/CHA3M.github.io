@@ -1,5 +1,5 @@
 ---
-title: ! "[Insomni'hack 2019] beginner reverse write up"
+title: ! "[Insomni'hack 2019] beginner reverse"
 date: 2019-02-08
 tags:
   - chaem
@@ -17,7 +17,7 @@ rust 언어로 되어있어서 더 어렵거나 한 문제는 아니었지만...
 rust는 어떤 언어인지 좀 찾아봤는데, 메모리 오류를 없애기 위한 목적을 가지고 만들어진 언어라고 한다.  
 언젠가 한 번 사용해 봐야겠당 ㅎㅎ  
 
-#   
+# 분석  
 
 ```
 ubuntu@ubuntu:~/ctf/2019/insomni$ file beginner_reverse-466bdf23cf344b8ee734a8ae86620ac72a37bb81a950b30eae6709f185c3b247
