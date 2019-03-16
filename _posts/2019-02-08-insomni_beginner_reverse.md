@@ -1,13 +1,15 @@
 ---
-layout: post
 title: ! "[Insomni'hack 2019] beginner reverse write up"
-excerpt_separator: <!--more-->
+date: 2019-02-08
 comments : true
 tags:
   - chaem
   - insomnihack2019
   - reversing
+categories:
+  - writeup
 ---
+
 beginner reverse는 64bit 바이너리의 rust 언어로 된 리버싱 문제이다.  
 막상 대회때는 제대로 보지 않은 문제인데, write up 쓰려고 찾다가 고르게 되었다 ㅎㅎ  
 비슷한 시기에 나왔다는 go언어는 해봤지만, rust는 좀 어렵다고 해서 거리감을 가지고 있었는데 이렇게 리버싱으로 접하게되어 반가웠다.  
