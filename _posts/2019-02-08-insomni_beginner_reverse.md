@@ -1,7 +1,6 @@
 ---
 title: ! "[Insomni'hack 2019] beginner reverse write up"
 date: 2019-02-08
-comments : true
 tags:
   - chaem
   - insomnihack2019
@@ -13,10 +12,12 @@ categories:
 beginner reverse는 64bit 바이너리의 rust 언어로 된 리버싱 문제이다.  
 막상 대회때는 제대로 보지 않은 문제인데, write up 쓰려고 찾다가 고르게 되었다 ㅎㅎ  
 비슷한 시기에 나왔다는 go언어는 해봤지만, rust는 좀 어렵다고 해서 거리감을 가지고 있었는데 이렇게 리버싱으로 접하게되어 반가웠다.  
-<!--more-->
+
 rust 언어로 되어있어서 더 어렵거나 한 문제는 아니었지만...!  
 rust는 어떤 언어인지 좀 찾아봤는데, 메모리 오류를 없애기 위한 목적을 가지고 만들어진 언어라고 한다.  
 언젠가 한 번 사용해 봐야겠당 ㅎㅎ  
+
+#   
 
 ```
 ubuntu@ubuntu:~/ctf/2019/insomni$ file beginner_reverse-466bdf23cf344b8ee734a8ae86620ac72a37bb81a950b30eae6709f185c3b247
@@ -45,6 +46,8 @@ IDA로 분석한 결과 beginer_reverse::main::h80fa15281f646bc1() 부분을 발
 그리고 아래 부분에서 뒷부분의 값도 찾아낼 수 있었다.  
 
 ![]({{ site.baseurl }}/assets/images/insomni_rev/beginner_reverse_03.JPG)  
+
+# 풀이  
 
 따라서 이 부분을 python으로 작성하면 다음과 같이 연산하여 flag값을 추출해 낼 수 있다.  
 ```python
