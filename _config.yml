@@ -19,7 +19,7 @@ locale                   : "ko"
 title                    : "CHA3M's space"
 title_separator          : "-"
 name                     : "CHA3M"
-description              : "An amazing website."
+description              : "Security"
 url                      : "https://cha3m.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CHA3M/CHA3M.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -29,7 +29,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : dev-hundred-blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : chaem-blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
