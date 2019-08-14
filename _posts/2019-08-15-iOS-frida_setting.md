@@ -9,8 +9,9 @@ categories:
   - iOS
 ---
 
-iphone5s (10.3.3)  
-Mac os (windows 에서도 가능)  
+진행환경
+- iphone5s (10.3.3)  
+- Mac os (windows 에서도 가능)  
 
 # frida를 이용해서 iOS 앱을 분석하기 위한 환경구성  
 
