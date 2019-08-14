@@ -40,22 +40,23 @@ categories:
 - iPhone에서 frida-server 구동 (`ps -ef | grep frida` 로 확인)  
 - USB로 연결 (`frida-ls-devices`로 연결된 단말기 확인가능)
 - PC에서 `frida-ps -U` 명령어 실행 시 프로세스들이 뜨면 된것임!  
-- `frida -U 프로세스ID` 로 attach하여 사용하면됨  
-```
-C:\Users\chaem
-λ frida -U 5412
-     ____
-    / _  |   Frida 12.6.13 - A world-class dynamic instrumentation toolkit
-   | (_| |
-    > _  |   Commands:
-   /_/ |_|       help      -> Displays the help system
-   . . . .       object?   -> Display information about 'object'
-   . . . .       exit/quit -> Exit
-   . . . .
-   . . . .   More info at http://www.frida.re/docs/home/
-Waiting for USB device to appear...
+- `frida -U 프로세스ID` 로 attach하여 사용하면됨 
 
-[Apple iPhone::PID::5412]->
+```
+C:\Users\chaem  
+λ frida -U 5412  
+     ____  
+    / _  |   Frida 12.6.13 - A world-class dynamic instrumentation toolkit  
+   | (_| |  
+    > _  |   Commands:  
+   /_/ |_|       help      -> Displays the help system  
+   . . . .       object?   -> Display information about 'object'  
+   . . . .       exit/quit -> Exit  
+   . . . .  
+   . . . .   More info at http://www.frida.re/docs/home/  
+Waiting for USB device to appear...  
+  
+[Apple iPhone::PID::5412]->  
 ```
 
 
