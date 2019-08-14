@@ -12,23 +12,23 @@ categories:
 iphone5s (10.3.3)  
 Mac os (windows 에서도 가능)  
 
-frida를 이용해서 iOS 앱을 분석하기 위한 환경구성  
+# frida를 이용해서 iOS 앱을 분석하기 위한 환경구성  
 
-1. pip 설치  
+## 1. pip 설치  
 - sudo easy_install pip  
 - 위 명령어가 안된다면 다음 두줄 실행  
-- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py  
-- sudo python get-pip.py  
+ > curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py  
+ > sudo python get-pip.py  
 
-2. python3 설치  
+## 2. python3 설치  
 - 설치여부 확인 : python3 --version  
 - python3 설치 :  https://www.python.org/downloads/mac-osx/ 에 접속하여 최신 버전 다운로드 및 설치  
 
-3. Mac에 frida 설치  
+## 3. Mac에 frida 설치  
 - pip3 install frida-tools  
 - pip에서 권한 오류 발생 시, `$ /Applications/Python\ 3.7/Install\ Certificates.command` 프로그램 실행  
 
-4. iPhone에 frida 설치  
+## 4. iPhone에 frida 설치  
 - Cydia를 설치한 뒤, https://build.frida.re를 소스에 추가하여 Frida (64bits 임)또는 Frida for 32bits device 중 알맞은 환경의 패키지 다운로드  
 - Cydia를 이용하여 frida를 설치하면 default로 `/usr/sbin/frida-server` 가 구동됨  
 - Cydia 앱을 이용하지 않고 frida git(https://github.com/frida/frida/releases)에서 알맞은 바이너리를 다운받아 filezila로 아이폰에 넣어서 구동하는 방법도 있음  
